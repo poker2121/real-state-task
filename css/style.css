@@ -1,0 +1,166 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+/* navbar */
+.navbar-brand {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.navbar-brand svg {
+  color: rgb(216, 81, 81);
+}
+
+.navbar-nav li {
+  padding: 10px 10px;
+}
+.navbar-nav li a{
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #000;
+}
+
+.navbar-nav .nav-link {
+  transition: background-color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #F2F3F5;
+  border-radius: 5px;
+}
+
+.navbar-nav .nav-item:first-child > .nav-link {
+  background-color: #F2F3F5;
+  border-radius: 5px; 
+}
+/* navbar end*/
+
+
+
+
+/* top property section start */
+.bg {
+  background-color: #3D7A81; 
+}
+.btn-danger {
+  background-color: #D85151;
+  padding: 10px 20px;
+ 
+}
+.btn-danger:hover {
+  background-color: #8f2316;
+}
+.property h3{
+  font-size: 32px;
+  font-weight: 600;
+}
+.property p{
+color: #CEDEDF;
+font-size: 18px;
+
+}
+/* top property section end */
+
+
+
+
+
+
+
+/* Top Agents start  */
+.agents{
+  font-size: 40px;
+  font-weight: 600;
+}
+.agent-card {
+  text-align: center;
+}
+
+.agent-card h5{
+  font-weight: 600;
+}
+.agent-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  background-color: #EEF1F6;
+}
+.agent-img:hover {
+  transform: scale(1.05);
+}
+.social-icons a {
+  margin: 0 5px;
+  color: #333;
+  transition: color 0.3s;
+}
+.social-icons a:hover {
+  color: #007bff;
+}
+/* Top Agents end  */
+
+
+/* lastest blog start */
+.latest-blogs .section-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.latest-blogs .view-all {
+  font-weight: bold;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.latest-blogs .blog-card {
+  border-radius: 10px;
+  overflow: hidden; 
+  position: relative;
+}
+
+.latest-blogs .image-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.latest-blogs .blog-image {
+  transition: transform 0.8s ease;
+  width: 100%;
+}
+
+.latest-blogs .image-container:hover .blog-image {
+  transform: scale(1.1); 
+}
+
+
+.latest-blogs .blog-content {
+  margin-top: 15px;
+}
+
+.latest-blogs .blog-category {
+  font-size: 0.9rem;
+  color: #6c757d;
+  text-transform: uppercase;
+}
+
+.latest-blogs .blog-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.latest-blogs .blog-author {
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+
+
+.latest-blogs p {
+  margin: 10px 0;
+  line-height: 1.6;
+  color: #333; 
+}
+
+
+/* lastest blog end */

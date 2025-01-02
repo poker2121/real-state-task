@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css files -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <!-- google fonts (Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Finder | Real Estate - Homepage</title>
+    <!-- icon -->
+    <link rel="icon" href="images/icon.png" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <header class="navbar navbar-expand-lg bg-body sticky-top">
+      <div class="container">
+        <!-- Mobile menu toggler -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Logo -->
+        <a class="navbar-brand" href="index.html">
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="34">
+            <path
+              d="M34.5 16.894v10.731c0 3.506-2.869 6.375-6.375 6.375H17.5h-.85C7.725 33.575.5 26.138.5 17c0-9.35 7.65-17 17-17s17 7.544 17 16.894z"
+              fill="currentColor"
+            ></path>
+            <g fill-rule="evenodd">
+              <path
+                d="M17.5 13.258c-3.101 0-5.655 2.554-5.655 5.655s2.554 5.655 5.655 5.655 5.655-2.554 5.655-5.655-2.554-5.655-5.655-5.655zm-9.433 5.655c0-5.187 4.246-9.433 9.433-9.433s9.433 4.246 9.433 9.433a9.36 9.36 0 0 1-1.569 5.192l2.397 2.397a1.89 1.89 0 0 1 0 2.671 1.89 1.89 0 0 1-2.671 0l-2.397-2.397a9.36 9.36 0 0 1-5.192 1.569c-5.187 0-9.433-4.246-9.433-9.433z"
+                fill="#000"
+                fill-opacity=".05"
+              ></path>
+              <g fill="#fff">
+                <path
+                  d="M17.394 10.153c-3.723 0-6.741 3.018-6.741 6.741s3.018 6.741 6.741 6.741 6.741-3.018 6.741-6.741-3.018-6.741-6.741-6.741zM7.347 16.894A10.05 10.05 0 0 1 17.394 6.847 10.05 10.05 0 0 1 27.44 16.894 10.05 10.05 0 0 1 17.394 26.94 10.05 10.05 0 0 1 7.347 16.894z"
+                ></path>
+                <path
+                  d="M23.025 22.525c.645-.645 1.692-.645 2.337 0l3.188 3.188c.645.645.645 1.692 0 2.337s-1.692.645-2.337 0l-3.187-3.187c-.645-.646-.645-1.692 0-2.337z"
+                ></path>
+              </g>
+            </g>
+            <path
+              d="M23.662 14.663c2.112 0 3.825-1.713 3.825-3.825s-1.713-3.825-3.825-3.825-3.825 1.713-3.825 3.825 1.713 3.825 3.825 3.825z"
+              fill="#fff"
+            ></path>
+            <path
+              fill-rule="evenodd"
+              d="M23.663 8.429a2.41 2.41 0 0 0-2.408 2.408 2.41 2.41 0 0 0 2.408 2.408 2.41 2.41 0 0 0 2.408-2.408 2.41 2.41 0 0 0-2.408-2.408zm-5.242 2.408c0-2.895 2.347-5.242 5.242-5.242s5.242 2.347 5.242 5.242-2.347 5.242-5.242 5.242-5.242-2.347-5.242-5.242z"
+              fill="currentColor"
+            ></path>
+          </svg>
+          Finder
+        </a>
+
+        <!-- Main navigation -->
+        <nav class="offcanvas offcanvas-start" id="navbarNav">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Browse Finder</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  data-bs-toggle="dropdown"
+                  >Home</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="home-real-estate.html"
+                      >Real Estate</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="home-cars.html">Cars</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  data-bs-toggle="dropdown"
+                  >Listings</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="listings-real-estate.html"
+                      >Real Estate Listings</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="listings-cars.html"
+                      >Car Listings</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="account.html">Account</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages.html">Pages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages.html">Docs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages.html">Components</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Button group -->
+        <div class="d-flex align-items-center">
+          <!-- Theme switcher -->
+          <div class="dropdown">
+            <button class="btn" type="button" data-bs-toggle="dropdown">
+              <i class="fas fa-sun"></i>
+            </button>
+            <ul class="dropdown-menu">
+              <li>
+                <button class="dropdown-item" data-bs-theme-value="light">
+                  Light
+                </button>
+              </li>
+              <li>
+                <button class="dropdown-item" data-bs-theme-value="dark">
+                  Dark
+                </button>
+              </li>
+              <li>
+                <button class="dropdown-item" data-bs-theme-value="auto">
+                  Auto
+                </button>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Account button -->
+          <a class="btn ms-2" href="account-signin.html">
+            <i class="fas fa-user"></i>
+          </a>
+
+          <!-- Add property button -->
+          <a class="btn btn-danger ms-2" href="add-property-type.html">
+            <i class="fas fa-plus"></i> Add property
+          </a>
+        </div>
+      </div>
+    </header>
+    <!-- Navbar End -->
+
+    <!-- property section start -->
+    <div class="container py-5 property">
+      <div class="row align-items-center bg text-white rounded p-4">
+        <div class="col-md-6">
+          <img
+            src="images/building.png"
+            alt="House Sketch"
+            class="img-fluid ml-"
+          />
+        </div>
+        <div class="col-md-6">
+          <h3>Calculate your property's cost</h3>
+          <p>
+            Real estate appraisal is a procedure that allows you to <br />
+            determine the average market value of real estate <br />
+            (apartment, house, land, etc.).
+          </p>
+          <a href="#" class="btn btn-danger mt-3">Start now</a>
+        </div>
+      </div>
+    </div>
+    <!-- property section end -->
+
+    <!-- Top Agents start -->
+    <div class="container py-5">
+      <h2 class="text-center mb-5 agents">Top real estate agents</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-3">
+          <div class="agent-card">
+            <img src="images/01.png" alt="Ivy Taylor" class="agent-img" />
+            <h5 class="mt-3">Ivy Taylor</h5>
+            <p class="text-black-50">Imperial Property Group Agent</p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="agent-card">
+            <img src="images/02.png" alt="Floyd Miles" class="agent-img" />
+            <h5 class="mt-3">Floyd Miles</h5>
+            <p class="text-black-50">Urban Nest Realty Group Agent</p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="agent-card">
+            <img src="images/03.png" alt="Adrian Frederick" class="agent-img" />
+            <h5 class="mt-3">Adrian Frederick</h5>
+            <p class="text-black-50">Prime Path Properties Agent</p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="agent-card">
+            <img src="images/04.png" alt="Hugh Blake" class="agent-img" />
+            <h5 class="mt-3">Hugh Blake</h5>
+            <p class="text-black-50">Harbor View Real Estate Agent</p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Top Agents end -->
+
+    <!-- Lastest Blog start -->
+    <section class="latest-blogs py-5">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+          <h2 class="section-title">Latest blogs</h2>
+          <a href="#" class="view-all text-dark">View all</a>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="blog-card position-relative overflow-hidden">
+              <div class="image-container">
+                <img
+                  src="images/001.jpg"
+                  alt="Blog 1"
+                  class="img-fluid blog-image"
+                />
+              </div>
+              <div class="blog-content">
+                <p class="blog-category">RENTING ADVICE</p>
+                <h3 class="blog-title">
+                  What to know when renting an apartment
+                </h3>
+                <p>
+                  It is quite difficult to find a good apartment for long-term
+                  rent in large cities...
+                </p>
+                <p class="blog-author">
+                  by Cody Fisher <span class="blog-date">July 09, 2024</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="blog-card position-relative overflow-hidden">
+              <div class="image-container">
+                <img
+                  src="images/002.jpg"
+                  alt="Blog 2"
+                  class="img-fluid blog-image"
+                />
+              </div>
+              <div class="blog-content">
+                <p class="blog-category">INVESTMENT ADVICE</p>
+                <h3 class="blog-title">Types of luxury housing</h3>
+                <p>
+                  It is quite difficult to find a good apartment for long-term
+                  rent in large cities...
+                </p>
+                <p class="blog-author">
+                  by Kristin Watson <span class="blog-date">June 26, 2024</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="blog-card position-relative overflow-hidden">
+              <div class="image-container">
+                <img
+                  src="images/003.jpg"
+                  alt="Blog 3"
+                  class="img-fluid blog-image"
+                />
+              </div>
+              <div class="blog-content">
+                <p class="blog-category">HOME IMPROVEMENT</p>
+                <h3 class="blog-title">
+                  How to modernize your home on a budget
+                </h3>
+                <p>
+                  It is quite difficult to find a good apartment for long-term
+                  rent in large cities...
+                </p>
+                <p class="blog-author">
+                  by Darrell Steward <span class="blog-date">May 13, 2024</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Lastest Blog end -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
