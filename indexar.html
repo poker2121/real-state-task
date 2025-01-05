@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -28,13 +28,11 @@
     />
     <title>Finder | Real Estate - Homepage</title>
   </head>
-
   <body>
-    
     <!-- Navbar Start -->
     <header class="navbar navbar-expand-lg bg-body sticky-top">
       <div class="container">
-        <!-- Mobile menu toggler -->
+        <!-- زر القائمة للهاتف المحمول -->
         <button
           class="navbar-toggler"
           type="button"
@@ -44,7 +42,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <!-- Logo -->
+        <!-- الشعار -->
         <a class="navbar-brand" href="index.html">
           <svg xmlns="http://www.w3.org/2000/svg" width="35" height="34">
             <path
@@ -76,13 +74,13 @@
               fill="currentColor"
             ></path>
           </svg>
-          Finder
+          الباحث
         </a>
 
-        <!-- Main navigation -->
+        <!-- القائمة الرئيسية -->
         <nav class="offcanvas offcanvas-start" id="navbarNav">
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title">Browse Finder</h5>
+            <h5 class="offcanvas-title">تصفح الباحث</h5>
             <button
               type="button"
               class="btn-close"
@@ -96,16 +94,16 @@
                   class="nav-link dropdown-toggle"
                   href="#"
                   data-bs-toggle="dropdown"
-                  >Home</a
+                  >الرئيسية</a
                 >
                 <ul class="dropdown-menu">
                   <li>
                     <a class="dropdown-item" href="home-real-estate.html"
-                      >Real Estate</a
+                      >العقارات</a
                     >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="home-cars.html">Cars</a>
+                    <a class="dropdown-item" href="home-cars.html">السيارات</a>
                   </li>
                 </ul>
               </li>
@@ -114,40 +112,40 @@
                   class="nav-link dropdown-toggle"
                   href="#"
                   data-bs-toggle="dropdown"
-                  >Listings</a
+                  >القوائم</a
                 >
                 <ul class="dropdown-menu">
                   <li>
                     <a class="dropdown-item" href="listings-real-estate.html"
-                      >Real Estate Listings</a
+                      >قوائم العقارات</a
                     >
                   </li>
                   <li>
                     <a class="dropdown-item" href="listings-cars.html"
-                      >Car Listings</a
+                      >قوائم السيارات</a
                     >
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="account.html">Account</a>
+                <a class="nav-link" href="account.html">الحساب</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="pages.html">Pages</a>
+                <a class="nav-link" href="pages.html">الصفحات</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="pages.html">Docs</a>
+                <a class="nav-link" href="pages.html">الوثائق</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="pages.html">Components</a>
+                <a class="nav-link" href="pages.html">المكونات</a>
               </li>
             </ul>
           </div>
         </nav>
 
-        <!-- Button group -->
+        <!-- مجموعة الأزرار -->
         <div class="d-flex align-items-center">
-          <!-- Theme switcher -->
+          <!-- محول السمة -->
           <div class="dropdown">
             <button class="btn" type="button" data-bs-toggle="dropdown">
               <i class="fas fa-sun"></i>
@@ -155,31 +153,32 @@
             <ul class="dropdown-menu">
               <li>
                 <button class="dropdown-item" data-bs-theme-value="light">
-                  Light
+                  فاتح
                 </button>
               </li>
               <li>
                 <button class="dropdown-item" data-bs-theme-value="dark">
-                  Dark
+                  داكن
                 </button>
               </li>
               <li>
                 <button class="dropdown-item" data-bs-theme-value="auto">
-                  Auto
+                  تلقائي
                 </button>
               </li>
             </ul>
           </div>
 
-          <!-- Account button -->
+          <!-- زر الحساب -->
           <a class="btn ms-2" href="account-signin.html">
             <i class="fas fa-user"></i>
           </a>
 
-          <!-- Add property button -->
+          <!-- زر إضافة عقار -->
           <a class="btn btn-danger ms-2" href="add-property-type.html">
-            <i class="fas fa-plus"></i> Add property
+            <i class="fas fa-plus"></i> إضافة عقار
           </a>
+
           <!-- زر تغيير اللغة -->
           <button class="btn ms-2" onclick="changeLanguage()">
             <i class="fas fa-globe"></i>
@@ -189,34 +188,34 @@
     </header>
     <!-- Navbar End -->
 
-    <!-- property section start -->
+    <!-- بداية قسم العقارات -->
     <div class="container py-5 property">
       <div class="row align-items-center bg text-white rounded p-4">
         <div class="col-md-6">
           <img
             src="images/building.png"
-            alt="House Sketch"
+            alt="رسم تخطيطي للمنزل"
             class="img-fluid ml-"
           />
         </div>
         <div class="col-md-6">
-          <h3>Calculate your property's cost</h3>
+          <h3>احسب تكلفة عقارك</h3>
           <p>
-            Real estate appraisal is a procedure that allows you to <br />
-            determine the average market value of real estate <br />
-            (apartment, house, land, etc.).
+            تقييم العقارات هو إجراء يسمح لك بـ <br />
+            تحديد متوسط القيمة السوقية للعقارات <br />
+            (شقة، منزل، أرض، إلخ).
           </p>
-          <a href="#" class="btn btn-danger mt-3">Start now</a>
+          <a href="#" class="btn btn-danger mt-3">ابدأ الآن</a>
         </div>
       </div>
     </div>
-    <!-- property section end -->
+    <!-- نهاية قسم العقارات -->
 
-    <!-- Top Offers start -->
+    <!-- بداية أفضل العروض -->
 
     <div class="container my-5 swipers">
       <div class="top-offers-section d-flex justify-content-between">
-        <h2 class="fw-bold">Top offers</h2>
+        <h2 class="fw-bold">أفضل العروض</h2>
         <div class="navigation-buttons">
           <div class="swiper-button-next"></div>
           <div class="swiper-button-prev"></div>
@@ -228,12 +227,12 @@
           <div class="swiper-slide">
             <div class="property-card">
               <div class="image-container position-relative">
-                <img src="images/0001.jpg" alt="Property" class="img-fluid" />
+                <img src="images/0001.jpg" alt="عقار" class="img-fluid" />
                 <div class="badges">
                   <span class="verified-badge"
-                    >Verified <i class="fas fa-check-circle"></i
+                    >موثق <i class="fas fa-check-circle"></i
                   ></span>
-                  <span class="new-badge">New</span>
+                  <span class="new-badge">جديد</span>
                 </div>
                 <div class="slide-dots">
                   <span class="dot active"></span>
@@ -243,15 +242,15 @@
                 </div>
               </div>
               <div class="property-info p-3">
-                <span class="property-type">For rent</span>
-                <h3 class="price">$1,620</h3>
-                <p class="address">40 S 9th St, Brooklyn, NY 11249</p>
+                <span class="property-type">للإيجار</span>
+                <h3 class="price">١,٦٢٠ دولار</h3>
+                <p class="address">40 شارع 9 الجنوبي، بروكلين، نيويورك 11249</p>
                 <div class="details">
-                  <span>65 sq.m</span>
+                  <span>٦٥ متر مربع</span>
                   <span class="separator">|</span>
-                  <span>2 <i class="fas fa-bed"></i></span>
-                  <span>1 <i class="fas fa-bath"></i></span>
-                  <span>1 <i class="fas fa-car"></i></span>
+                  <span>٢ <i class="fas fa-bed"></i></span>
+                  <span>١ <i class="fas fa-bath"></i></span>
+                  <span>١ <i class="fas fa-car"></i></span>
                 </div>
               </div>
             </div>
@@ -259,12 +258,12 @@
           <div class="swiper-slide">
             <div class="property-card">
               <div class="image-container position-relative">
-                <img src="images/0002.jpg" alt="Property" class="img-fluid" />
+                <img src="images/0001.jpg" alt="عقار" class="img-fluid" />
                 <div class="badges">
                   <span class="verified-badge"
-                    >Verified <i class="fas fa-check-circle"></i
+                    >موثق <i class="fas fa-check-circle"></i
                   ></span>
-                  <span class="new-badge">New</span>
+                  <span class="new-badge">جديد</span>
                 </div>
                 <div class="slide-dots">
                   <span class="dot active"></span>
@@ -274,15 +273,15 @@
                 </div>
               </div>
               <div class="property-info p-3">
-                <span class="property-type">For rent</span>
-                <h3 class="price">$1,620</h3>
-                <p class="address">40 S 9th St, Brooklyn, NY 11249</p>
+                <span class="property-type">للإيجار</span>
+                <h3 class="price">١,٦٢٠ دولار</h3>
+                <p class="address">40 شارع 9 الجنوبي، بروكلين، نيويورك 11249</p>
                 <div class="details">
-                  <span>65 sq.m</span>
+                  <span>٦٥ متر مربع</span>
                   <span class="separator">|</span>
-                  <span>2 <i class="fas fa-bed"></i></span>
-                  <span>1 <i class="fas fa-bath"></i></span>
-                  <span>1 <i class="fas fa-car"></i></span>
+                  <span>٢ <i class="fas fa-bed"></i></span>
+                  <span>١ <i class="fas fa-bath"></i></span>
+                  <span>١ <i class="fas fa-car"></i></span>
                 </div>
               </div>
             </div>
@@ -290,12 +289,12 @@
           <div class="swiper-slide">
             <div class="property-card">
               <div class="image-container position-relative">
-                <img src="images/0007.jpg" alt="Property" class="img-fluid" />
+                <img src="images/0001.jpg" alt="عقار" class="img-fluid" />
                 <div class="badges">
                   <span class="verified-badge"
-                    >Verified <i class="fas fa-check-circle"></i
+                    >موثق <i class="fas fa-check-circle"></i
                   ></span>
-                  <span class="new-badge">New</span>
+                  <span class="new-badge">جديد</span>
                 </div>
                 <div class="slide-dots">
                   <span class="dot active"></span>
@@ -305,15 +304,15 @@
                 </div>
               </div>
               <div class="property-info p-3">
-                <span class="property-type">For rent</span>
-                <h3 class="price">$1,620</h3>
-                <p class="address">40 S 9th St, Brooklyn, NY 11249</p>
+                <span class="property-type">للإيجار</span>
+                <h3 class="price">١,٦٢٠ دولار</h3>
+                <p class="address">40 شارع 9 الجنوبي، بروكلين، نيويورك 11249</p>
                 <div class="details">
-                  <span>65 sq.m</span>
+                  <span>٦٥ متر مربع</span>
                   <span class="separator">|</span>
-                  <span>2 <i class="fas fa-bed"></i></span>
-                  <span>1 <i class="fas fa-bath"></i></span>
-                  <span>1 <i class="fas fa-car"></i></span>
+                  <span>٢ <i class="fas fa-bed"></i></span>
+                  <span>١ <i class="fas fa-bath"></i></span>
+                  <span>١ <i class="fas fa-car"></i></span>
                 </div>
               </div>
             </div>
@@ -321,12 +320,12 @@
           <div class="swiper-slide">
             <div class="property-card">
               <div class="image-container position-relative">
-                <img src="images/0006.jpg" alt="Property" class="img-fluid" />
+                <img src="images/0001.jpg" alt="عقار" class="img-fluid" />
                 <div class="badges">
                   <span class="verified-badge"
-                    >Verified <i class="fas fa-check-circle"></i
+                    >موثق <i class="fas fa-check-circle"></i
                   ></span>
-                  <span class="new-badge">New</span>
+                  <span class="new-badge">جديد</span>
                 </div>
                 <div class="slide-dots">
                   <span class="dot active"></span>
@@ -336,15 +335,15 @@
                 </div>
               </div>
               <div class="property-info p-3">
-                <span class="property-type">For rent</span>
-                <h3 class="price">$1,620</h3>
-                <p class="address">40 S 9th St, Brooklyn, NY 11249</p>
+                <span class="property-type">للإيجار</span>
+                <h3 class="price">١,٦٢٠ دولار</h3>
+                <p class="address">40 شارع 9 الجنوبي، بروكلين، نيويورك 11249</p>
                 <div class="details">
-                  <span>65 sq.m</span>
+                  <span>٦٥ متر مربع</span>
                   <span class="separator">|</span>
-                  <span>2 <i class="fas fa-bed"></i></span>
-                  <span>1 <i class="fas fa-bath"></i></span>
-                  <span>1 <i class="fas fa-car"></i></span>
+                  <span>٢ <i class="fas fa-bed"></i></span>
+                  <span>١ <i class="fas fa-bath"></i></span>
+                  <span>١ <i class="fas fa-car"></i></span>
                 </div>
               </div>
             </div>
@@ -352,12 +351,12 @@
           <div class="swiper-slide">
             <div class="property-card">
               <div class="image-container position-relative">
-                <img src="images/001.jpg" alt="Property" class="img-fluid" />
+                <img src="images/0001.jpg" alt="عقار" class="img-fluid" />
                 <div class="badges">
                   <span class="verified-badge"
-                    >Verified <i class="fas fa-check-circle"></i
+                    >موثق <i class="fas fa-check-circle"></i
                   ></span>
-                  <span class="new-badge">New</span>
+                  <span class="new-badge">جديد</span>
                 </div>
                 <div class="slide-dots">
                   <span class="dot active"></span>
@@ -367,36 +366,69 @@
                 </div>
               </div>
               <div class="property-info p-3">
-                <span class="property-type">For rent</span>
-                <h3 class="price">$1,620</h3>
-                <p class="address">40 S 9th St, Brooklyn, NY 11249</p>
+                <span class="property-type">للإيجار</span>
+                <h3 class="price">١,٦٢٠ دولار</h3>
+                <p class="address">40 شارع 9 الجنوبي، بروكلين، نيويورك 11249</p>
                 <div class="details">
-                  <span>65 sq.m</span>
+                  <span>٦٥ متر مربع</span>
                   <span class="separator">|</span>
-                  <span>2 <i class="fas fa-bed"></i></span>
-                  <span>1 <i class="fas fa-bath"></i></span>
-                  <span>1 <i class="fas fa-car"></i></span>
+                  <span>٢ <i class="fas fa-bed"></i></span>
+                  <span>١ <i class="fas fa-bath"></i></span>
+                  <span>١ <i class="fas fa-car"></i></span>
                 </div>
               </div>
             </div>
           </div>
+          <div class="swiper-slide">
+            <div class="property-card">
+              <div class="image-container position-relative">
+                <img src="images/0001.jpg" alt="عقار" class="img-fluid" />
+                <div class="badges">
+                  <span class="verified-badge"
+                    >موثق <i class="fas fa-check-circle"></i
+                  ></span>
+                  <span class="new-badge">جديد</span>
+                </div>
+                <div class="slide-dots">
+                  <span class="dot active"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </div>
+              </div>
+              <div class="property-info p-3">
+                <span class="property-type">للإيجار</span>
+                <h3 class="price">١,٦٢٠ دولار</h3>
+                <p class="address">40 شارع 9 الجنوبي، بروكلين، نيويورك 11249</p>
+                <div class="details">
+                  <span>٦٥ متر مربع</span>
+                  <span class="separator">|</span>
+                  <span>٢ <i class="fas fa-bed"></i></span>
+                  <span>١ <i class="fas fa-bath"></i></span>
+                  <span>١ <i class="fas fa-car"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- باقي العناصر مشابهة -->
         </div>
 
-        <!-- Pagination -->
+        <!-- الترقيم -->
         <div class="swiper-pagination"></div>
       </div>
     </div>
-    <!-- Top Offers end -->
+    <!-- نهاية أفضل العروض -->
 
-    <!-- Top Agents start -->
+    <!-- بداية أفضل الوكلاء -->
+
     <div class="container py-5">
-      <h2 class="text-center mb-5 agents">Top real estate agents</h2>
+      <h2 class="text-center mb-5 agents">أفضل وكلاء العقارات</h2>
       <div class="row justify-content-center">
         <div class="col-md-3">
           <div class="agent-card">
-            <img src="images/01.png" alt="Ivy Taylor" class="agent-img" />
-            <h5 class="mt-3">Ivy Taylor</h5>
-            <p class="text-black-50">Imperial Property Group Agent</p>
+            <img src="images/01.png" alt="إيفي تايلور" class="agent-img" />
+            <h5 class="mt-3">إيفي تايلور</h5>
+            <p class="text-black-50">وكيلة مجموعة إمبيريال العقارية</p>
             <div class="social-icons">
               <a href="#"><i class="fab fa-instagram"></i></a>
               <a href="#"><i class="fab fa-facebook"></i></a>
@@ -406,9 +438,9 @@
         </div>
         <div class="col-md-3">
           <div class="agent-card">
-            <img src="images/02.png" alt="Floyd Miles" class="agent-img" />
-            <h5 class="mt-3">Floyd Miles</h5>
-            <p class="text-black-50">Urban Nest Realty Group Agent</p>
+            <img src="images/02.png" alt="فلويد مايلز" class="agent-img" />
+            <h5 class="mt-3">فلويد مايلز</h5>
+            <p class="text-black-50">وكيل مجموعة أوربان نيست العقارية</p>
             <div class="social-icons">
               <a href="#"><i class="fab fa-instagram"></i></a>
               <a href="#"><i class="fab fa-facebook"></i></a>
@@ -418,9 +450,9 @@
         </div>
         <div class="col-md-3">
           <div class="agent-card">
-            <img src="images/03.png" alt="Adrian Frederick" class="agent-img" />
-            <h5 class="mt-3">Adrian Frederick</h5>
-            <p class="text-black-50">Prime Path Properties Agent</p>
+            <img src="images/03.png" alt="أدريان فريدريك" class="agent-img" />
+            <h5 class="mt-3">أدريان فريدريك</h5>
+            <p class="text-black-50">وكيل مجموعة برايم باث العقارية</p>
             <div class="social-icons">
               <a href="#"><i class="fab fa-instagram"></i></a>
               <a href="#"><i class="fab fa-facebook"></i></a>
@@ -430,9 +462,9 @@
         </div>
         <div class="col-md-3">
           <div class="agent-card">
-            <img src="images/04.png" alt="Hugh Blake" class="agent-img" />
-            <h5 class="mt-3">Hugh Blake</h5>
-            <p class="text-black-50">Harbor View Real Estate Agent</p>
+            <img src="images/04.png" alt="هيو بليك" class="agent-img" />
+            <h5 class="mt-3">هيو بليك</h5>
+            <p class="text-black-50">وكيل مجموعة هاربر فيو العقارية</p>
             <div class="social-icons">
               <a href="#"><i class="fab fa-instagram"></i></a>
               <a href="#"><i class="fab fa-facebook"></i></a>
@@ -442,14 +474,14 @@
         </div>
       </div>
     </div>
-    <!-- Top Agents end -->
+    <!-- نهاية أفضل الوكلاء -->
 
-    <!-- Lastest Blog start -->
+    <!-- بداية أحدث المدونات -->
     <section class="latest-blogs py-5">
       <div class="container">
         <div class="d-flex justify-content-between align-items-center mb-4">
-          <h2 class="section-title">Latest blogs</h2>
-          <a href="#" class="view-all text-dark">View all</a>
+          <h2 class="section-title">أحدث المدونات</h2>
+          <a href="#" class="view-all text-dark">عرض الكل</a>
         </div>
         <div class="row g-4">
           <div class="col-md-4">
@@ -457,21 +489,19 @@
               <div class="image-container">
                 <img
                   src="images/001.jpg"
-                  alt="Blog 1"
+                  alt="مدونة 1"
                   class="img-fluid blog-image"
                 />
               </div>
               <div class="blog-content">
-                <p class="blog-category">RENTING ADVICE</p>
-                <h3 class="blog-title">
-                  What to know when renting an apartment
-                </h3>
+                <p class="blog-category">نصائح للإيجار</p>
+                <h3 class="blog-title">ما الذي يجب معرفته عند استئجار شقة</h3>
                 <p>
-                  It is quite difficult to find a good apartment for long-term
-                  rent in large cities...
+                  من الصعب جدًا العثور على شقة جيدة للإيجار طويل الأمد في المدن
+                  الكبيرة...
                 </p>
                 <p class="blog-author">
-                  by Cody Fisher <span class="blog-date">July 09, 2024</span>
+                  بواسطة كودي فيشر <span class="blog-date">09 يوليو، 2024</span>
                 </p>
               </div>
             </div>
@@ -481,19 +511,20 @@
               <div class="image-container">
                 <img
                   src="images/002.jpg"
-                  alt="Blog 2"
+                  alt="مدونة 2"
                   class="img-fluid blog-image"
                 />
               </div>
               <div class="blog-content">
-                <p class="blog-category">INVESTMENT ADVICE</p>
-                <h3 class="blog-title">Types of luxury housing</h3>
+                <p class="blog-category">نصائح استثمارية</p>
+                <h3 class="blog-title">أنواع السكن الفاخر</h3>
                 <p>
-                  It is quite difficult to find a good apartment for long-term
-                  rent in large cities...
+                  من الصعب جدًا العثور على شقة جيدة للإيجار طويل الأمد في المدن
+                  الكبيرة...
                 </p>
                 <p class="blog-author">
-                  by Kristin Watson <span class="blog-date">June 26, 2024</span>
+                  بواسطة كريستين واتسون
+                  <span class="blog-date">26 يونيو، 2024</span>
                 </p>
               </div>
             </div>
@@ -503,21 +534,22 @@
               <div class="image-container">
                 <img
                   src="images/003.jpg"
-                  alt="Blog 3"
+                  alt="مدونة 3"
                   class="img-fluid blog-image"
                 />
               </div>
               <div class="blog-content">
-                <p class="blog-category">HOME IMPROVEMENT</p>
+                <p class="blog-category">تحسين المنازل</p>
                 <h3 class="blog-title">
-                  How to modernize your home on a budget
+                  كيف تقوم بتحديث منزلك بميزانية محدودة
                 </h3>
                 <p>
-                  It is quite difficult to find a good apartment for long-term
-                  rent in large cities...
+                  من الصعب جدًا العثور على شقة جيدة للإيجار طويل الأمد في المدن
+                  الكبيرة...
                 </p>
                 <p class="blog-author">
-                  by Darrell Steward <span class="blog-date">May 13, 2024</span>
+                  بواسطة داريل ستيوارد
+                  <span class="blog-date">13 مايو، 2024</span>
                 </p>
               </div>
             </div>
@@ -525,88 +557,81 @@
         </div>
       </div>
     </section>
-    <!-- Lastest Blog end -->
+    <!-- نهاية أحدث المدونات -->
 
-    <!-- Footer Start -->
+    <!-- بداية الفوتر -->
     <footer class="text-light pt-5 pb-3">
       <div class="container">
         <div class="row">
-          <!-- Section 1: Logo and Contact -->
+          <!-- القسم الأول: الشعار ووسائل الاتصال -->
           <div class="col-md-3 mb-4">
-            <h5 class="fw-bold">Finder</h5>
-
+            <h5 class="fw-bold">فايندر</h5>
             <p><i class="fas fa-envelope me-2"></i> contact@example.com</p>
             <p><i class="fas fa-phone me-2"></i> +1 50 537 53 082</p>
           </div>
 
-          <!-- Section 2: Quick Links -->
+          <!-- القسم الثاني: روابط سريعة -->
           <div class="col-md-3 mb-4">
-            <h5 class="fw-bold">Quick links</h5>
+            <h5 class="fw-bold">روابط سريعة</h5>
             <ul class="list-unstyled">
               <li>
                 <a href="#" class="text-light text-decoration-none"
-                  >Daily rental</a
+                  >تأجير يومي</a
                 >
               </li>
               <li>
                 <a href="#" class="text-light text-decoration-none"
-                  >Long-term rental</a
+                  >تأجير طويل الأمد</a
                 >
               </li>
               <li>
                 <a href="#" class="text-light text-decoration-none"
-                  >Buy property</a
+                  >شراء عقار</a
                 >
               </li>
               <li>
-                <a href="#" class="text-light text-decoration-none"
-                  >Sell property</a
-                >
+                <a href="#" class="text-light text-decoration-none">بيع عقار</a>
               </li>
               <li>
                 <a href="#" class="text-light text-decoration-none"
-                  >Popular offers</a
+                  >العروض الشعبية</a
                 >
               </li>
             </ul>
           </div>
 
-          <!-- Section 3: Profile -->
+          <!-- القسم الثالث: الحساب الشخصي -->
           <div class="col-md-3 mb-4">
-            <h5 class="fw-bold">Profile</h5>
+            <h5 class="fw-bold">الحساب الشخصي</h5>
             <ul class="list-unstyled">
               <li>
+                <a href="#" class="text-light text-decoration-none">حسابي</a>
+              </li>
+              <li>
+                <a href="#" class="text-light text-decoration-none">إعلاناتي</a>
+              </li>
+              <li>
                 <a href="#" class="text-light text-decoration-none"
-                  >My account</a
+                  >إضافة إعلان</a
                 >
               </li>
               <li>
                 <a href="#" class="text-light text-decoration-none"
-                  >My listings</a
+                  >مركز المساعدة</a
                 >
               </li>
               <li>
                 <a href="#" class="text-light text-decoration-none"
-                  >Add listings</a
-                >
-              </li>
-              <li>
-                <a href="#" class="text-light text-decoration-none"
-                  >Help center</a
-                >
-              </li>
-              <li>
-                <a href="#" class="text-light text-decoration-none"
-                  >Privacy policy</a
+                  >سياسة الخصوصية</a
                 >
               </li>
             </ul>
           </div>
 
-          <!-- Section 4: Exclusive Advice -->
+          <!-- القسم الرابع: نصائح حصرية -->
           <div class="col-md-3 mb-4 text-center">
-            <h5 class="fw-bold">Get exclusive advice</h5>
-            <button class="btn btn-outline-light mt-3 px-4">Sign up</button>
+            <h5 class="fw-bold">احصل على نصائح حصرية</h5>
+            <button class="btn btn-outline-light mt-3 px-4">سجل الآن</button>
             <div class="mt-4">
               <a href="#" class="text-light me-3"
                 ><i class="fab fa-instagram fa-lg"></i
@@ -621,32 +646,32 @@
           </div>
         </div>
 
-        <!-- Download App Section -->
+        <!-- قسم تحميل التطبيق -->
         <div class="row mt-5">
           <div class="col-12">
             <div class="bg-light text-dark rounded shadow-lg p-3">
               <div class="row align-items-center">
-                <!-- Text Section -->
+                <!-- قسم النص -->
                 <div class="col-md-8 p-4">
-                  <h4 class="fw-bold">Download Finder App</h4>
+                  <h4 class="fw-bold">حمل تطبيق فايندر</h4>
                   <p class="mb-4">
-                    Find everything you need for buying, selling, and renting
-                    property in our new Finder App!
+                    اكتشف كل ما تحتاجه للشراء، البيع، والتأجير في تطبيق فايندر
+                    الجديد!
                   </p>
                   <div class="d-flex">
                     <a href="#" class="btn btn-primary mar px-4 py-2 fw-bold"
-                      >App Store</a
+                      >متجر التطبيقات</a
                     >
                     <a href="#" class="btn btn-success px-4 py-2 fw-bold"
-                      >Google Play</a
+                      >جوجل بلاي</a
                     >
                   </div>
                 </div>
-                <!-- Image Section -->
+                <!-- قسم الصورة -->
                 <div class="col-md-4 text-center">
                   <img
                     src="images/app-footer.png"
-                    alt="Finder App"
+                    alt="تطبيق فايندر"
                     class="img-fluid rounded"
                   />
                 </div>
@@ -658,15 +683,15 @@
 
       <div class="text-center mt-4">
         <p class="text-secondary">
-          © All rights reserved. Made by Createx Studio
+          © جميع الحقوق محفوظة. صنع بواسطة Createx Studio
         </p>
       </div>
     </footer>
-    <!-- Footer end -->
+    <!-- نهاية الفوتر -->
 
     <script>
       function changeLanguage() {
-        window.location.href = "indexar.html";
+        window.location.href = "index.html";
       }
     </script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
