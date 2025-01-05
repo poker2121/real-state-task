@@ -11,3 +11,5 @@ const swiper = new Swiper('.mySwiper', {
   },
 });
 
+if (window.location.pathname.endsWith("index.html")) {
+  window.location.href = "indexar.html";}
